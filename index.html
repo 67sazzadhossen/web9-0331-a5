@@ -85,9 +85,9 @@
     <main>
 
         <!-- ===== Offer section ==== -->
-        <section>
-            <h1 class="text-3xl font-bold text-center mt-20">Best offers for you</h1>
-            <div class="max-w-[1170px] mx-auto text-black flex gap-6 mt-10">
+        <section class="mt-20 flex flex-col gap-10 items-center">
+            <h1 class="text-3xl font-bold text-center">Best offers for you</h1>
+            <div class="max-w-[1170px] mx-auto text-black flex gap-6">
                 <div class="w-[50%] flex h-[220px] ">
                     <div class=" bg-[#FFBF0F] w-[60%] flex flex-col justify-center px-10 rounded-l-lg">
                         <p class="font-extrabold text-6xl">20% OFF</p>
@@ -120,6 +120,223 @@
                 </div>
             
             </div>
+            <button class="btn bg-transparent text-[#1DD100] border-[#1DD100]">
+                See All Offers
+            </button>
+        </section>
+
+
+        <!-- ======= Ticket Booking ====== -->
+        <section class="border-[#1DD100] border-t-[2px] rounded-[88px] mt-20">
+            <div class="max-w-[1170px] mx-auto">
+                <div class="pt-20">
+                    <h1 class="text-center font-extrabold text-3xl">Busy-Line</h1>
+                    <p class="text-center px-72 mt-6 leading-8">Yes, you can run unit tests and view the results directly within the
+                        app. The integrated testing features allow for a
+                        streamlined .</p>
+                </div>
+                
+                <div class="flex">
+                    <div class="w-[70%] bg-[#FFFFFF] p-6">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4">
+                                <div><img src="/Assets/buslogo.png" alt=""></div>
+                                <div>
+                                    <h1 class="text-xl font-extrabold">Greenline Paribahan</h1>
+                                    <p>Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn bg-[#1DD10026] border-none text-[#1DD100]"><img src="/Assets/seat-green.png" alt="">40 Seats Left</button>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#F7F8F8] p-6 flex flex-col  mt-6 rounded-2xl">
+                            <div class="flex justify-between border-b-[1px] border-dotted py-6">
+                                <p class="text-[#03071299] font-semibold">Route</p>
+                                <p class="font-bold">Dhaka to Sylhet</p>
+                            </div>
+                            <div class="flex justify-between border-b-[1px] border-dotted py-6">
+                                <p class="text-[#03071299] font-semibold">Depature Time</p>
+                                <p class="font-bold">9:00 PM</p>
+                            </div>
+                            <div class="flex gap-8 py-6">
+                                <button class="btn bg-[#0307120D] text-[#03071299] font-semibold">Boarding Point - Laxmipur</button>
+                                <button class="btn bg-[#0307120D] text-[#03071299] font-semibold">Boarding Point - Laxmipur</button>
+                                <button class="btn bg-[#0307120D] text-[#03071299] font-semibold">Boarding Point - Laxmipur</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-col justify-center w-[30%] p-6 bg-[#FFFFFF] items-center relative">
+                        <div><img src="/Assets/takalogo.png" alt=""></div>
+                        <h1 class="font-extrabold text-xl gap-4">550 Taka</h1>
+                        <p>Per Seat</p>
+                        
+                        <div class="h-56 w-[1px] bg-[#1DD100] absolute left-16"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ====== Ticket Selection ===== -->
+        <section>
+            <div class="max-w-[1170px] mx-auto flex justify-between gap-16">
+
+                <!-- ===== Left Div ==== -->
+                <div class="w-[60%]">
+                    <h1 class="font-bold border-b py-4">Select Your Seat</h1>
+
+                    <div class="flex justify-between border-b py-4">
+                        <div class="text-[#03071280] flex gap-2"><img src="/Assets/available.png" alt="">Available</div>
+                        <div class="text-[#1DD100] flex gap-2"><img src="/Assets/selected.png" alt="">Selected</div>
+                    </div>
+
+                    <div class="flex justify-end py-6">
+                        <div class="w-[110px] h-[56px] bg-[#0307121A] rounded-[12px] flex flex-col justify-center items-center"><img class="w-[32px] mx-auto flex flex-col" src="/Assets/wheel.png" alt=""></div>
+                    </div>
+
+                    <div class="inter flex justify-between">
+
+                        <!-- ===== Left Seat ====== -->
+                        <div class="flex flex-col gap-2">
+                            <ul class="flex gap-6">
+                                <li id="A" class="px-4 py-3 w-[60px] text-center">A</li>
+                                <li id="A1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">A1</li>
+                                <li id="A2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">A2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="B" class="px-4 py-3 w-[60px] text-center">B</li>
+                                <li id="B1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">B1</li>
+                                <li id="B2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">B2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="C" class="px-4 py-3 w-[60px] text-center">C</li>
+                                <li id="C1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">C1</li>
+                                <li id="C2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">C2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="D" class="px-4 py-3 w-[60px] text-center">D</li>
+                                <li id="D1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">D1</li>
+                                <li id="D2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">D2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="E" class="px-4 py-3 w-[60px] text-center">E</li>
+                                <li id="E1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">E1</li>
+                                <li id="E2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">E2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="F" class="px-4 py-3 w-[60px] text-center">F</li>
+                                <li id="F1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">F1</li>
+                                <li id="F2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">F2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="G" class="px-4 py-3 w-[60px] text-center">G</li>
+                                <li id="G1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">G1</li>
+                                <li id="G2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">G2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="H" class="px-4 py-3 w-[60px] text-center">H</li>
+                                <li id="H1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">H1</li>
+                                <li id="H2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">H2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="I" class="px-4 py-3 w-[60px] text-center">I</li>
+                                <li id="I1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">I1</li>
+                                <li id="I2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">I2</li>
+                            </ul>
+                            
+                            <ul class="flex gap-6">
+                                <li id="J" class="px-4 py-3 w-[60px] text-center">J</li>
+                                <li id="J1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">J1</li>
+                                <li id="J2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">J2</li>
+                            </ul>
+                        </div>
+
+                        <!-- ======== Right Seat ====== -->
+                        <div class="flex flex-col gap-2">
+                            <ul class="flex gap-6">
+                                
+                                <li id="A1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">A1</li>
+                                <li id="A2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">A2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="B1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">B1</li>
+                                <li id="B2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">B2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="C1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">C1</li>
+                                <li id="C2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">C2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                               
+                                <li id="D1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">D1</li>
+                                <li id="D2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">D2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                              
+                                <li id="E1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">E1</li>
+                                <li id="E2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">E2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="F1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">F1</li>
+                                <li id="F2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">F2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="G1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">G1</li>
+                                <li id="G2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">G2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="H1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">H1</li>
+                                <li id="H2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">H2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                                
+                                <li id="I1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">I1</li>
+                                <li id="I2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">I2</li>
+                            </ul>
+                        
+                            <ul class="flex gap-6">
+                               
+                                <li id="J1" class="w-[110px] text-center py-3 bg-[#F7F8F8]">J1</li>
+                                <li id="J2" class="w-[110px] text-center py-3 bg-[#F7F8F8]">J2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======= Right Div ===== -->
+                <div class="w-[40%]">
+                    <h1 class="font-bold border-b py-4">Select Your Seat</h1>
+
+                    
+                </div>
+
+            </div>
+
         </section>
 
     </main>
